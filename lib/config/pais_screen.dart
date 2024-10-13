@@ -20,7 +20,8 @@ class PaisScreen extends StatelessWidget{
     return Column(
       
       children:[
-        Image.network(pais.flagUrl)
+        
+         Image.network(pais.flagUrl)
       ],
     );
   }
