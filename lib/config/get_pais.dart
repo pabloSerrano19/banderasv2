@@ -11,7 +11,7 @@ Future<Pais> getPais() async {
   
   final response = await dio.get('https://restcountries.com/v3.1/name/spain');
  
- final paisModel = Ciudad.fromJson(response.data);
+ final paisModel = Ciudad.fromJson(response.data[0]);
 
  return paisModel.toPaisEntity();
 }
