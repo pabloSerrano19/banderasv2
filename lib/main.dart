@@ -24,6 +24,8 @@ class MyApp extends StatelessWidget {
 
             
             child:  PaisScreen()
+            ,Text(pais.capital),
+            Text(pais.name)
           ),
         ),
       ),
